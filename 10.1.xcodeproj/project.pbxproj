@@ -14,6 +14,7 @@
 		188616241BE92578006E2247 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188616231BE92578006E2247 /* Images.xcassets */; };
 		188616271BE92578006E2247 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188616251BE92578006E2247 /* LaunchScreen.xib */; };
 		188616331BE92578006E2247 /* _0_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188616321BE92578006E2247 /* _0_1Tests.m */; };
+		188616511BE93003006E2247 /* ViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 188616501BE93003006E2247 /* ViewManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		1886162C1BE92578006E2247 /* 10.1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 10.1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		188616311BE92578006E2247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		188616321BE92578006E2247 /* _0_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0_1Tests.m; sourceTree = "<group>"; };
+		1886164F1BE93003006E2247 /* ViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewManager.h; sourceTree = "<group>"; };
+		188616501BE93003006E2247 /* ViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		188616151BE92578006E2247 /* 10.1 */ = {
 			isa = PBXGroup;
 			children = (
+				1886164E1BE92FE2006E2247 /* manager */,
 				1886161A1BE92578006E2247 /* AppDelegate.h */,
 				1886161B1BE92578006E2247 /* AppDelegate.m */,
 				1886161D1BE92578006E2247 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				188616311BE92578006E2247 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1886164E1BE92FE2006E2247 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				1886164F1BE93003006E2247 /* ViewManager.h */,
+				188616501BE93003006E2247 /* ViewManager.m */,
+			);
+			name = manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				1886161F1BE92578006E2247 /* ViewController.m in Sources */,
 				1886161C1BE92578006E2247 /* AppDelegate.m in Sources */,
+				188616511BE93003006E2247 /* ViewManager.m in Sources */,
 				188616191BE92578006E2247 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +430,7 @@
 				188616381BE92578006E2247 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		188616391BE92578006E2247 /* Build configuration list for PBXNativeTarget "10.1Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +439,7 @@
 				1886163B1BE92578006E2247 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
