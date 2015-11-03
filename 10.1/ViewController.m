@@ -19,6 +19,7 @@ BOOL flag;
 - (void)viewDidLoad {
     [super viewDidLoad];
     flag = NO;
+    flag = YES;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
